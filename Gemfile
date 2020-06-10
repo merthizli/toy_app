@@ -17,7 +17,7 @@ group :development do
 	gem 'spring', '2.1.0'
 	gem 'spring-watcher-listen', '2.0.1'
 end
-group :test doi
+group :test do
   gem 'capybara', '3.28.0'
   gem 'selenium-webdriver', '3.142.4'
   gem 'webdrivers', '4.1.2'
@@ -26,4 +26,4 @@ group :production do
 	gem 'pg', '1.1.4'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
